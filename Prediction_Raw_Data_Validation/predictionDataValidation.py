@@ -16,9 +16,7 @@ class Prediction_Data_validation:
     """
                This class shall be used for handling all the validation done on the Raw Prediction Data!!.
 
-               Written By: iNeuron Intelligence
-               Version: 1.0
-               Revisions: None
+               
 
                """
 
@@ -35,9 +33,7 @@ class Prediction_Data_validation:
                                 Output: LengthOfDateStampInFile, LengthOfTimeStampInFile, column_names, Number of Columns
                                 On Failure: Raise ValueError,KeyError,Exception
 
-                                 Written By: iNeuron Intelligence
-                                Version: 1.0
-                                Revisions: None
+                               
 
                                         """
         try:
@@ -88,9 +84,6 @@ class Prediction_Data_validation:
                                       Output: Regex pattern
                                       On Failure: None
 
-                                       Written By: iNeuron Intelligence
-                                      Version: 1.0
-                                      Revisions: None
 
                                               """
         regex = "['wafer']+['\_'']+[\d_]+[\d]+\.csv"
@@ -106,9 +99,7 @@ class Prediction_Data_validation:
                                         Output: None
                                         On Failure: OSError
 
-                                         Written By: iNeuron Intelligence
-                                        Version: 1.0
-                                        Revisions: None
+                                        
 
                                                 """
         try:
@@ -134,10 +125,7 @@ class Prediction_Data_validation:
                                             Output: None
                                             On Failure: OSError
 
-                                             Written By: iNeuron Intelligence
-                                            Version: 1.0
-                                            Revisions: None
-
+                                            
                                                     """
         try:
             path = 'Prediction_Raw_Files_Validated/'
@@ -162,9 +150,6 @@ class Prediction_Data_validation:
                                             Output: None
                                             On Failure: OSError
 
-                                             Written By: iNeuron Intelligence
-                                            Version: 1.0
-                                            Revisions: None
 
                                                     """
 
@@ -192,9 +177,6 @@ class Prediction_Data_validation:
                                             Output: None
                                             On Failure: OSError
 
-                                             Written By: iNeuron Intelligence
-                                            Version: 1.0
-                                            Revisions: None
 
                                                     """
         now = datetime.now()
@@ -237,9 +219,7 @@ class Prediction_Data_validation:
             Output: None
             On Failure: Exception
 
-             Written By: iNeuron Intelligence
-            Version: 1.0
-            Revisions: None
+          
 
         """
         # delete the directories for good and bad data in case last run was unsuccessful and folders were not deleted.
@@ -290,10 +270,7 @@ class Prediction_Data_validation:
                     Output: None
                     On Failure: Exception
 
-                     Written By: iNeuron Intelligence
-                    Version: 1.0
-                    Revisions: None
-
+                    
              """
         try:
             f = open("Prediction_Logs/columnValidationLog.txt", 'a+')
@@ -335,9 +312,7 @@ class Prediction_Data_validation:
                                   Output: None
                                   On Failure: Exception
 
-                                   Written By: iNeuron Intelligence
-                                  Version: 1.0
-                                  Revisions: None
+                                 
 
                               """
         try:

@@ -70,7 +70,7 @@ def predictRouteClient():
 @cross_origin()
 def trainRouteClient():
     try:
-        # if request.json['folderPath'] is not None:
+        # if request.json['folderPath'] is not None:tr
         folder_path = "Training_Batch_Files"
         # path = request.json['folderPath']
         if folder_path is not None:
